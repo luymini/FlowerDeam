@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".luckfrag.LuckFragment">
+
+   <ImageView
+       android:id="@+id/luck_mfz"
+       android:layout_width="match_parent"
+       android:layout_height="400dp"
+       android:layout_marginTop="48dp"
+       android:alpha="0.6"/>
+<!--       android:background="@drawable/mfz1"-->
+
+
+   <ImageButton
+       android:id="@+id/bt_luck"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/ys2_2020"
+       android:layout_marginTop="155dp"
+       android:layout_marginLeft="100dp"
+      />
+
+</RelativeLayout>

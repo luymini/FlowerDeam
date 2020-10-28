@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mefrag.MeFragment"
+
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+   <de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/item_star_iv"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/qcxz"
+       android:layout_marginLeft="140dp"
+    android:layout_marginTop="100dp"
+    />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="用户：lyy"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#A1423636"
+        android:drawableBottom="@drawable/underline"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="编号：10002"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#A1423636"
+        android:drawableBottom="@drawable/underline"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="手机：18851698655"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#A1423636"
+        android:drawableBottom="@drawable/underline"/>
+    <TextView
+        android:id="@+id/guangbo_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="维护版本下载"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#2196F3"
+        android:drawableBottom="@drawable/underline"/>
+</LinearLayout>

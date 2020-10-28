@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/qcxzx"
+        android:label="ai植物"
+        android:roundIcon="@mipmap/qcxzx"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".login.RegisterActivity" />
+        <activity android:name=".login.loginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".mefrag.BReseiver">
+            <intent-filter>
+                <action android:name="com.example.xz.BReseiver" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".huanying.WelcomActivity" />
+        <activity android:name=".luckfrag.luck2Activity" />
+        <activity android:name=".starfrag.Star2Activity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
